@@ -1,0 +1,269 @@
+\documentclass[]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{pdfsubject={Slides of the lightning talk about DueCredit
+    given at DebConf 2015},%
+  pdftitle={DueCredit -- Give credit when it is due},%
+  pdfauthor={Yaroslav O. Halchenko},
+  pdfkeywords={DueCredit, Science},%
+  colorlinks,citecolor=blue,linkcolor=green,urlcolor=blue}
+
+% reuse the style but we need
+%\input{../sty/beamer-debian.tex}
+\setbeamertemplate{blocks}[default]
+
+\let\Tiny\tiny% http://tex.stackexchange.com/q/58087/5764
+\usepackage{fancyvrb}% http://ctan.org/pkg/fancyvrb
+
+\usepackage{minted}
+% pretty code printing
+\usepackage{fancyvrb}
+\usepackage{color}
+\graphicspath{
+ {../../images/}
+}
+
+\title[DueCredit]{DueCredit -- Give credit when it is due}
+\author[yoh AKA Yarik]{Yaroslav O. Halchenko\\
+  \href{mailto: yoh@debian.org}{yoh@debian.org}\\
+yarikoptic @ \href{http://twitter.com/yarikoptic}{twitter},
+\href{http://github.com/yarikoptic}{github}\\
+\&\\
+Matteo Visconti di Oleggio Castello
+}
+\institute[Dartmouth, (Neuro)Debian]{
+\href{http://centerforopenneuroscience.org}{Center for Open Neuroscience},
+\href{http://www.dartmouth.edu}{Dartmouth College (Hanover, NH, USA)}\\
+\href{http://www.debian.org}{Debian}/\href{http://neuro.debian.net}{NeuroDebian},\\
+\href{http://www.datalad.org}{DataLad},
+\href{http://www.duecredit.org}{DueCredit},
+\href{http://www.fail2ban.org}{DueCredit},
+\href{http://www.pymvpa.org}{PyMVPA}
+}
+\date[DebConf 2015]{DebConf 2015, Heidelberg, Germany}
+
+\urlstyle{same}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{}
+\begin{center}
+NO LOGO YET (Contribute!)%\includegraphics[width=0.6\textwidth]{logo.pdf}
+\\
+\href{http://duecredit.org}{duecredit.org} \\
+or really just\\
+\href{http://github.com/duecredit/duecredit}{http://github.com/duecredit/duecredit}
+for now
+\end{center}
+\end{frame}
+
+\begin{frame}{Problems to solve}
+\begin{itemize}
+\item Inadequate referencing of core libraries/data
+\item Fostering of prima ballerina projects
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{DueCredit approach}
+
+Make it \textbf{VERY EASY} to
+\begin{itemize}
+\item collect references for methods, software and data actually used
+  by the analysis
+\item accumulate reference information through the entirety of the
+  research project
+\item request references to cite using desired format: LaTeX + BibTeX,
+  rendered citations in variety of styles, etc
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[t,fragile]{Example: \texttt{examples/example\_scipy.py}}
+
+\begin{minted}[fontsize=\scriptsize]{python}
+# A tiny analysis script to demostrate duecredit
+#
+# Import of duecredit is not necessary if you just run this script with
+# python -m duecredit
+# import duecredit  # Just to enable duecredit
+from scipy.cluster.hierarchy import linkage
+from scipy.spatial.distance import pdist
+from sklearn.datasets import make_blobs
+
+print("I: Simulating 4 blobs")
+data, true_label = make_blobs(centers=4)
+
+dist = pdist(data, metric='euclidean')
+
+Z = linkage(dist, method='single')
+print("I: Done clustering 4 blobs")
+\end{minted}
+\end{frame}
+
+
+\begin{frame}[t,fragile]{What is it for?}
+\begin{Verbatim}[commandchars=\\\{\},fontsize=\scriptsize]
+> python -m duecredit examples/example_scipy.py
+I: Simulating 4 blobs
+I: Done clustering 4 blobs
+
+DueCredit Report:
+- scipy (v 0.14.1) [1]
+  - scipy.cluster.hierarchy:linkage (v 0.14.1) [2]
+- sklearn (v 0.16.1) [3]
+
+2 packages cited
+0 modules cited
+1 functions cited
+
+References
+----------
+
+[1] Jones, E. et al., 2001. SciPy: Open source scientific tools for Python.
+[2] Sibson, R., 1973. SLINK: an optimally efficient algorithm for the single-link cluster method. The Computer Journal, 16(1), pp.30–34.
+[3] Pedregosa, F. et al., 2011. Scikit-learn: Machine learning in Python. The Journal of Machine Learning Research, 12, pp.2825–2830.
+\end{Verbatim}
+\end{frame}
+
+
+\begin{frame}[t,fragile]{A bit bigger example}
+\begin{Verbatim}[commandchars=\\\{\},fontsize=\scriptsize]
+> python -m duecredit /usr/bin/nosetests mvpa2.tests.test_transerror
+........
+DueCredit Report:
+- libsvm (v None) [1]
+- mvpa2 (v 2.4) [2]
+  - mvpa2.clfs.SVM (v 2.4) [3]
+  - mvpa2.clfs.smlr:SMLR (v 2.4) [4]
+  - mvpa2.clfs.transerror:_call (v 2.4) [5]
+  - mvpa2.featsel.rfe:_train (v 2.4) [6]
+  - mvpa2.measures.searchlight:_call (v 2.4) [7]
+- scipy (v 0.14.1) [8]
+- sklearn (v 0.16.1) [9]
+
+4 packages cited
+1 modules cited
+4 functions cited
+
+References
+----------
+
+[1] Chang, C.-C. & Lin, C.-J., 2011. LIBSVM. ACM Trans. Intell. Syst. Technol., 2(3), pp.1–27.
+[2] Hanke, M. et al., 2009. PyMVPA: a Python Toolbox for Multivariate Pattern Analysis of fMRI Data. Neuroinform, 7(1), pp.37–53.
+[3] Vapnik, V., 1995. The Nature of Statistical Learning Theory, New York: Springer.
+...
+\end{Verbatim}
+\end{frame}
+
+\begin{frame}[t,fragile]{A bit bigger example: alternative output}
+\begin{Verbatim}[fontsize=\scriptsize]
+> duecredit summary --format=bibtex
+@article{Hanke_2009, title={PyMVPA: a unifying approach to the analysis of neuroscientific data}, volume={3}, ISSN={1662-5196}, url={http://dx.doi.org/10.3389/neuro.11.003.2009}, DOI={10.3389/neuro.11.003.2009}, journal={Frontiers in Neuroinformatics}, publisher={Frontiers Media SA}, author={Hanke, Michael}, year={2009}}
+@article{pedregosa2011scikit,
+        title={Scikit-learn: Machine learning in Python},
+        author={Pedregosa, Fabian and Varoquaux, Ga{"e}l and Gramfort,
+        Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel,
+        Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss,
+        Ron and Dubourg, Vincent and others},
+        journal={The Journal of Machine Learning Research},
+        volume={12},
+        pages={2825--2830},
+        year={2011},
+        publisher={JMLR. org}
+        }
+@article{Kriegeskorte_2006, title=...
+...
+\end{Verbatim}
+\end{frame}
+
+
+\begin{frame}[fragile]{Contribute HOWTO 101.1: Use in your software}
+
+\begin{enumerate}
+\item copy \texttt{duecredit/stub.py} to your codebase, e.g.
+\begin{Verbatim}[fontsize=\scriptsize]
+wget -q -O /path/tomodule/yourmodule/due.py \
+  https://raw.githubusercontent.com/
+     duecredit/duecredit/master/duecredit/stub.py
+\end{Verbatim}
+
+\item Then use \texttt{duecredit} import due and necessary entries in your code as
+
+\begin{minted}[fontsize=\scriptsize]{python}
+from .due import due, Doi
+\end{minted}
+
+to provide reference for the entire module just use e.g.
+
+\begin{minted}[fontsize=\scriptsize]{python}
+due.cite(Doi("1.2.3/x.y.z"), description="Solves all your problems",
+         path="magicpy")
+\end{minted}
+
+To provide a reference for a function or a method, use dcite decorator
+
+\begin{minted}[fontsize=\scriptsize]{python}
+@due.dcite(Doi("1.2.3/x.y.z"), description="Resolves constipation issue")
+def pushit():
+    ...
+\end{minted}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]{Contribute HOWTO 101.2: Inject for other modules}
+Example: \texttt{duecredit/injections/mod\_scipy.py}
+
+\begin{minted}[fontsize=\scriptsize]{python}
+from ..entries import Doi, BibTeX, Url
+def inject(injector):
+    injector.add('scipy', None, BibTeX("""
+                    @Misc{JOP+01,
+                    ...
+                    }"""),
+                 description="Scientific tools library",
+                 tags=['implementation'])
+    ...
+    injector.add('scipy.cluster.hierarchy', 'linkage', BibTeX("""
+                    @article{ward1963hierarchical,
+                    ...
+                    }"""),
+                 conditions={(1, 'method'): {'ward'}},
+                 description="Ward hierarchical clustering",
+                 min_version='0.4.3',
+                 tags=['reference'])
+    ...
+\end{minted}
+
+\end{frame}
+
+\begin{frame}{Contribute HOWTO 101.X: Other languages/environments support}
+  \begin{description}[XXXX]
+  \item[Matlab/Octave]
+    \url{https://github.com/duecredit/duecredit/issues/20}
+  \item[R, C/C++, ...] \textbf{You?}
+  \end{description}
+\end{frame}
+
+
+\begin{frame}{}
+\begin{center}
+\Large Thanks!
+\end{center}
+\end{frame}
+
+\end{document}
+%%% needs to be built with  pdflatex -shell-escape s.tex
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-PDF-mode: t
+%%% TeX-master: t
+%%% ispell-local-dictionary: "american"
+%%% auto-fill-inhibit-regexp: ".*[&|].*[&|].*"
+%%% End:
