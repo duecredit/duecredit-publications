@@ -31,10 +31,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.22627417"
-     inkscape:cx="1619.0823"
-     inkscape:cy="1113.2209"
+     inkscape:cx="2313.0064"
+     inkscape:cy="2263.9122"
      inkscape:document-units="cm"
-     inkscape:current-layer="g11217"
+     inkscape:current-layer="g14224-7-9"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -14579,6 +14579,16 @@
          stdDeviation="5.4601647"
          id="feGaussianBlur4783-2-7-1-7-3-0-0-7-9-4" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3812-8-8-7"
+       id="linearGradient9029"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.61592937,0.00956131,-0.00341238,0.69203063,595.90504,-3370.8765)"
+       x1="455.93674"
+       y1="264.4632"
+       x2="503.5274"
+       y2="223.91129" />
   </defs>
   <metadata
      id="metadata7">
@@ -14708,8 +14718,7 @@
      style="display:none"
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Stuff"
-     sodipodi:insensitive="true">
+     inkscape:label="Stuff">
     <text
        sodipodi:linespacing="125%"
        id="text3175"
@@ -20021,7 +20030,7 @@
              width="1146.2572"
              id="rect8860-3" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Bold'"
-           id="flowPara8862-5">Have you ever coded something just to find out it existed already?</flowPara></flowRoot>    </g>
+           id="flowPara8862-5">Have you ever created a new project just to get your work cited?</flowPara></flowRoot>    </g>
     <g
        id="g9064"
        transform="translate(-47.368421,-91.05263)">
@@ -20188,7 +20197,7 @@
              width="936.84216"
              id="rect9171" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif'"
-           id="flowPara9173">Many times people (i.e., Ph.D. students) have to &quot;re-implement the wheel&quot; creating short-lived projects instead of contributing to existing ones, just because they might not know they exists!</flowPara></flowRoot>    </g>
+           id="flowPara9173">Many times people (e.g., Ph.D. students) &quot;re-implement the wheel&quot; creating short-lived independent projects instead of contributing to existing ones, just because they need to get citations for their methods/software</flowPara></flowRoot>    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot9397"
@@ -20205,8 +20214,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="example"
-     sodipodi:insensitive="true">
+     inkscape:label="example">
     <flowRoot
        xml:space="preserve"
        id="flowRoot12785"
@@ -20222,8 +20230,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="icons"
-     sodipodi:insensitive="true">
+     inkscape:label="icons">
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:12, 4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect9426"
@@ -20253,43 +20260,157 @@
            height="602.56409"
            x="353.84616"
            y="2908.2373" />
-        <flowRoot
-           xml:space="preserve"
-           id="flowRoot12362-6"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
-           transform="translate(279.52678,-1086.4569)"><flowRegion
-             id="flowRegion12364-0"><rect
-               id="rect12366-6"
-               width="1625"
-               height="812.50024"
-               x="106.25"
-               y="4048.6218" /></flowRegion><flowPara
-             id="flowPara12404-8"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"># A tiny analysis script to demonstrate duecredit</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12727" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12729">from scipy.cluster.hierarchy import linkage</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12731">from scipy.spatial.distance import pdist</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12733">from sklearn.datasets import make_blobs</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12735" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12737">print(&quot;I: Simulating 4 blobs&quot;)</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12739">data, true_label = make_blobs(centers=4)</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12741" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12743">dist = pdist(data, metric='euclidean')</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12745" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12747">Z = linkage(dist, method='single')</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12749">print(&quot;I: Done clustering 4 blobs&quot;)</flowPara></flowRoot>      </g>
+        <g
+           transform="matrix(2.1833254,0,0,2.1833254,377.27533,2938.464)"
+           style="font-size:14px;font-family:monospace"
+           font-size="14px"
+           id="g4">
+          <text
+             x="0"
+             y="14"
+             xml:space="preserve"
+             id="text6"><tspan
+               style="font-style:italic;fill:#008800"
+               font-style="italic"
+               id="tspan8"># A tiny analysis script to demonstrate duecredit</tspan></text>
+          <text
+             x="0"
+             y="33"
+             xml:space="preserve"
+             id="text10" />
+          <text
+             x="0"
+             y="52"
+             xml:space="preserve"
+             id="text12"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan14">from</tspan> <tspan
+   style="font-weight:bold;fill:#0000ff"
+   font-weight="bold"
+   id="tspan16">scipy.cluster.hierarchy</tspan> <tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan18">import</tspan> linkage</text>
+          <text
+             x="0"
+             y="71"
+             xml:space="preserve"
+             id="text20"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan22">from</tspan> <tspan
+   style="font-weight:bold;fill:#0000ff"
+   font-weight="bold"
+   id="tspan24">scipy.spatial.distance</tspan> <tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan26">import</tspan> pdist</text>
+          <text
+             x="0"
+             y="90"
+             xml:space="preserve"
+             id="text28"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan30">from</tspan> <tspan
+   style="font-weight:bold;fill:#0000ff"
+   font-weight="bold"
+   id="tspan32">sklearn.datasets</tspan> <tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan34">import</tspan> make_blobs</text>
+          <text
+             x="0"
+             y="109"
+             xml:space="preserve"
+             id="text36" />
+          <text
+             x="0"
+             y="128"
+             xml:space="preserve"
+             id="text38"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan40">print</tspan>(<tspan
+   style="fill:#bb4444"
+   id="tspan42">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan44">I: Simulating 4 blobs</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan46">&quot;</tspan>)</text>
+          <text
+             x="0"
+             y="147"
+             xml:space="preserve"
+             id="text48">data, true_label <tspan
+   style="fill:#666666"
+   id="tspan50">=</tspan> make_blobs(centers<tspan
+   style="fill:#666666"
+   id="tspan52">=</tspan><tspan
+   style="fill:#666666"
+   id="tspan54">4</tspan>)</text>
+          <text
+             x="0"
+             y="166"
+             xml:space="preserve"
+             id="text56" />
+          <text
+             x="0"
+             y="185"
+             xml:space="preserve"
+             id="text58">dist <tspan
+   style="fill:#666666"
+   id="tspan60">=</tspan> pdist(data, metric<tspan
+   style="fill:#666666"
+   id="tspan62">=</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan64">'</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan66">euclidean</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan68">'</tspan>)</text>
+          <text
+             x="0"
+             y="204"
+             xml:space="preserve"
+             id="text70" />
+          <text
+             x="0"
+             y="223"
+             xml:space="preserve"
+             id="text72">Z <tspan
+   style="fill:#666666"
+   id="tspan74">=</tspan> linkage(dist, method<tspan
+   style="fill:#666666"
+   id="tspan76">=</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan78">'</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan80">single</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan82">'</tspan>)</text>
+          <text
+             x="0"
+             y="242"
+             xml:space="preserve"
+             id="text84"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan86">print</tspan>(<tspan
+   style="fill:#bb4444"
+   id="tspan88">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan90">I: Done clustering 4 blobs</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan92">&quot;</tspan>)</text>
+          <text
+             x="0"
+             y="261"
+             xml:space="preserve"
+             id="text94" />
+        </g>
+      </g>
       <g
          id="g13182">
         <g
@@ -20583,7 +20704,7 @@
                height="998.27429"
                width="1178.4277"
                id="rect12366" /></flowRegion><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000080"
              id="flowPara12368">$&gt; python -m duecredit examples/example_scipy.py</flowPara><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
              id="flowPara12370">I: Simulating 4 blobs</flowPara><flowPara
@@ -20657,7 +20778,7 @@
                height="1082.4915"
                width="1618.3781"
                id="rect13233" /></flowRegion><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000080"
              id="flowPara13235">$&gt; duecredit summary --format=bibtex</flowPara><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
              id="flowPara13237">@article{van2011numpy,</flowPara><flowPara
@@ -20767,71 +20888,153 @@
                height="602.56409"
                x="1497.4359"
                y="3405.6731" /></flowRegion><flowPara
-             id="flowPara12805">1. copy duecredit/stub.py to your codebase</flowPara><flowPara
+             id="flowPara12805">1. copy <flowSpan
+   style="fill:#0000ff"
+   id="flowSpan8997">duecredit/stub.py</flowSpan> to your codebase</flowPara><flowPara
+             id="flowPara8999">    as <flowSpan
+   style="fill:#0000ff"
+   id="flowSpan9001">due.py</flowSpan></flowPara><flowPara
              id="flowPara12809">2. import necessary pieces</flowPara><flowPara
              id="flowPara12811" /><flowPara
              id="flowPara12813" /><flowPara
              id="flowPara12815" /><flowPara
              id="flowPara12807" /></flowRoot>        <flowRoot
            xml:space="preserve"
-           id="flowRoot12817"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           transform="translate(112.82051,-707.94872)"><flowRegion
-             id="flowRegion12819"><rect
-               id="rect12821"
-               width="725.64105"
-               height="220.51282"
-               x="2135.8975"
-               y="3395.4165" /></flowRegion><flowPara
-             id="flowPara12823"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace">from .due import due, Doi</flowPara></flowRoot>        <flowRoot
-           xml:space="preserve"
            id="flowRoot12799-6"
            style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
-           transform="translate(668.34375,-661.22022)"><flowRegion
+           transform="translate(668.34375,-643.22022)"><flowRegion
              id="flowRegion12801-1"><rect
                id="rect12803-9"
                width="907.6922"
                height="141.02574"
                x="1497.4359"
                y="3405.6731" /></flowRegion><flowPara
-             id="flowPara12809-5">3. cite modules or functions using a doi or a bibtex entry</flowPara><flowPara
+             id="flowPara12809-5">3. cite modules or functions using a doi or a BibTeX entry</flowPara><flowPara
              id="flowPara12811-9" /><flowPara
              id="flowPara12813-9" /><flowPara
              id="flowPara12815-1" /><flowPara
-             id="flowPara12807-3" /></flowRoot>        <flowRoot
+             id="flowPara12807-3" /></flowRoot>        <g
+           transform="matrix(2.3359358,0,0,2.3359358,2249.0255,2760.0679)"
+           id="g4224">
+          <text
+             id="text16"
+             xml:space="preserve"
+             y="63.130466"
+             x="0"><tspan
+               style="font-style:italic;fill:#008800"
+               id="tspan18-5"
+               font-style="italic"># module</tspan></text>
+          <text
+             id="text20-1"
+             xml:space="preserve"
+             y="82.130417"
+             x="0">due<tspan
+   style="fill:#666666"
+   id="tspan22-5">.</tspan>cite(Doi(<tspan
+   style="fill:#bb4444"
+   id="tspan24-0">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan26-8">1.2.3/x.y.z</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan28">&quot;</tspan>), </text>
+          <text
+             id="text30"
+             xml:space="preserve"
+             y="101.13042"
+             x="0">         description<tspan
+   style="fill:#666666"
+   id="tspan32-5">=</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan34-1">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan36">Solves all your problems</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan38">&quot;</tspan>,</text>
+          <text
+             id="text40"
+             xml:space="preserve"
+             y="120.13042"
+             x="0">         path<tspan
+   style="fill:#666666"
+   id="tspan42-7">=</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan44-1">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan46-6">magicpy</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan48">&quot;</tspan>)</text>
+          <text
+             id="text52"
+             xml:space="preserve"
+             y="147"
+             x="0"><tspan
+               style="font-style:italic;fill:#008800"
+               id="tspan54-0"
+               font-style="italic"># functions</tspan></text>
+          <text
+             id="text56-2"
+             xml:space="preserve"
+             y="166"
+             x="0"><tspan
+   style="fill:#aa22ff"
+   id="tspan58">@due.dcite</tspan>(Doi(<tspan
+   style="fill:#bb4444"
+   id="tspan60-0">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan62-5">1.2.3/x.y.z</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan64-5">&quot;</tspan>), </text>
+          <text
+             id="text66"
+             xml:space="preserve"
+             y="166"
+             x="145.20531">           description<tspan
+   style="fill:#666666"
+   id="tspan68-2">=</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan70">&quot;</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan72">Finds love</tspan><tspan
+   style="fill:#bb4444"
+   id="tspan74-0">&quot;</tspan>)</text>
+          <text
+             id="text76"
+             xml:space="preserve"
+             y="187.73247"
+             x="0"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   id="tspan78-4"
+   font-weight="bold">def</tspan> <tspan
+   style="fill:#00a000"
+   id="tspan80-0">find_love</tspan>():</text>
+          <text
+             id="text82"
+             xml:space="preserve"
+             y="206.73247"
+             x="0">    <tspan
+   style="fill:#666666"
+   id="tspan84">.</tspan><tspan
+   style="fill:#666666"
+   id="tspan86-6">.</tspan><tspan
+   style="fill:#666666"
+   id="tspan88-8">.</tspan></text>
+        </g>
+        <text
+           x="2248.5173"
+           y="2751.4885"
            xml:space="preserve"
-           id="flowRoot12817-1"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
-           transform="translate(100.92917,-521.31782)"><flowRegion
-             id="flowRegion12819-9"><rect
-               id="rect12821-9"
-               width="884.61566"
-               height="505.12799"
-               x="2135.8975"
-               y="3395.4165" /></flowRegion><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12890"># module</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12930">due.cite(Doi(&quot;1.2.3/x.y.z&quot;), </flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12970">         description=&quot;Solves all your problems&quot;,</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12972">         path=&quot;magicpy&quot;)</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12948" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12910"># functions</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12962">@due.dcite(Doi(&quot;1.2.3/x.y.z&quot;), </flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12968">           description=&quot;Finds love&quot;)</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12964">    def find_love():</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12966">        ...</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:monospace;-inkscape-font-specification:monospace"
-             id="flowPara12960" /></flowRoot>      </g>
+           id="text6-9"
+           style="font-size:26.68220711px"><tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan8-8">from</tspan> <tspan
+   style="font-weight:bold;fill:#0000ff"
+   font-weight="bold"
+   id="tspan10">.due</tspan> <tspan
+   style="font-weight:bold;fill:#aa22ff"
+   font-weight="bold"
+   id="tspan12">import</tspan> due, Doi</text>
+      </g>
       <g
          transform="translate(156.97436,272.76923)"
          id="g42897">
@@ -21129,7 +21332,7 @@
      inkscape:label="bottom panel">
     <flowRoot
        transform="translate(1025.654,2265.2839)"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new;"
        id="flowRoot42795-9-3"
        xml:space="preserve"><flowRegion
          id="flowRegion42797-52-8"><rect
@@ -21137,8 +21340,9 @@
            x="380.06989"
            height="212.13203"
            width="601.04077"
-           id="rect42799-3-3" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'"
+           id="rect42799-3-3"
+           style="fill:#aa0000;fill-opacity:1;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#aa0000;fill-opacity:1;"
          id="flowPara42801-07-4">What next?</flowPara></flowRoot>    <g
        style="display:inline;enable-background:new"
        id="g9064-7"
@@ -21250,7 +21454,7 @@
                xml:space="preserve"
                id="flowRoot9056-6-1-1"
                style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               transform="translate(45.003381,165.09342)"><flowRegion
+               transform="translate(67.864939,140.54187)"><flowRegion
                  id="flowRegion9058-9-3-7"><rect
                    id="rect9060-6-3-9"
                    width="836.8421"
@@ -21258,7 +21462,9 @@
                    x="263.1579"
                    y="1592.0428" /></flowRegion><flowPara
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle"
-                 id="flowPara14222-8">Spread the word!</flowPara><flowPara
+                 id="flowPara14222-8">Integration with DataLad</flowPara><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle"
+                 id="flowPara9425">for citation of datasets</flowPara><flowPara
                  id="flowPara14308"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle" /></flowRoot>          </g>
         </g>
@@ -21320,7 +21526,7 @@
       <g
          style="display:inline;enable-background:new"
          id="g14139-4-9-2"
-         transform="matrix(0.99926228,0.03840427,-0.03840427,0.99926228,848.82196,410.60608)">
+         transform="matrix(0.99926228,0.03840427,-0.03840427,0.99926228,780.07196,298.10608)">
         <g
            id="g14224-7-9"
            transform="matrix(0.96851287,-0.24896351,0.24896351,0.96851287,-600.03832,752.09906)">
@@ -21380,6 +21586,78 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle" /></flowRoot>          </g>
         </g>
       </g>
+      <g
+         transform="matrix(0.99176583,0.12806458,-0.12806458,0.99176583,873.03306,107.56196)"
+         id="g9003"
+         style="display:inline;enable-background:new">
+        <g
+           transform="translate(-368.63419,157.07113)"
+           id="g9005">
+          <g
+             transform="matrix(0.99956003,-0.02966057,0.02966057,0.99956003,449.65864,-460.22194)"
+             id="g9007">
+            <g
+               transform="matrix(1.1448706,0,0,0.68532467,125.35938,-208.34515)"
+               id="g9009"
+               style="display:inline;enable-background:new">
+              <g
+                 transform="matrix(-1.3764044,0,0,1.1745982,-950.53768,3342.0104)"
+                 inkscape:label="Layer 1"
+                 id="g9011">
+                <g
+                   style="display:inline;enable-background:new"
+                   id="g9013"
+                   transform="matrix(1.8526755,0,0,2.0440391,-2110.1701,-718.8481)">
+                  <path
+                     inkscape:export-ydpi="90"
+                     inkscape:export-xdpi="90"
+                     inkscape:export-filename="/tmp/note.png"
+                     sodipodi:nodetypes="ccccc"
+                     id="path9015"
+                     d="m 111.75321,670.22242 291.36184,-1.42529 5.86507,284.28826 c 0,0 -228.99165,-3.8306 -306.48012,-0.7232 7.34705,-70.31493 9.25321,-282.13977 9.25321,-282.13977 z"
+                     style="display:inline;overflow:visible;visibility:visible;opacity:0.44782607;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;marker:none;filter:url(#filter4781-5-2-1-2-8-3-96-8-2);enable-background:accumulate"
+                     transform="matrix(1.023139,0.00425964,-0.00435824,0.9999909,293.96226,-626.72303)"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     inkscape:export-ydpi="90"
+                     inkscape:export-xdpi="90"
+                     inkscape:export-filename="/tmp/note.png"
+                     style="display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient9029);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;marker:none;enable-background:accumulate"
+                     d="m 402.33811,37.510469 304.28296,1.29616 -1.21097,284.283131 c 0,0 -262.55978,5.77124 -298.49265,-15.55737 -7.49941,-36.06149 -4.57934,-270.021921 -4.57934,-270.021921 z"
+                     id="path9017"
+                     sodipodi:nodetypes="ccccc"
+                     inkscape:connector-curvature="0" />
+                </g>
+              </g>
+            </g>
+            <image
+               width="329.25964"
+               height="329.25964"
+               preserveAspectRatio="none"
+               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABzoAAAc6AQMAAAA36fNmAAAABlBMVEUAAAD///+l2Z/dAAAAAnRS TlP//8i138cAAAAJcEhZcwAALiMAAC4jAXilP3YAAArgSURBVHic7dxRbts6FEXRABlAhqSpe0gd QAA/wGoAUiQl0VHj19O1P6uS9y5+G3m7/yO9vXqBnwo0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMC TQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0 LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0 QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMC TQs0LdC0QNMCTQs0LdC0QNMCTQs0LdC0QNMaQ9/O916eu01/WPtV3jj8cNACCgoKCgoKCgoKCgoK CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvo66PhkscT76MRnufYK/Wgv6bxAeVU14+l1 QUGrQNdAq0CXdsbT64KCVoGugVaBLu2Mp9cFBa0CXQOtAl3aGU+vCwpaBboGWgW6tDOeXhcUtAp0 DbQKdGlnPL0uKGgV6BpoFejSznh6XVDQKtA10CrQpZ3x9LqgoFWga6BVoEs74+l1QTuzqoZLdNZu 67xAp86M9j8NXxkUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU9H8P /Z7nrTxxBwUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQXNhpaezgt0 1h5vBwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr690Hnl/ho/++t +PA5erPfDWc8vS4oaBUoKCgo6NS6oKBVoKCgoKBT64KCVoGCgoKCTq0LCloFCgoKCjq1LihoFSgo KCjo1LqgoFWgoKCgoFPrglZrH9T5tXfnBb734VygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg oKCgoKCgoKCgoKCgoKCgoC+BznewXefDeu62/2YXLXflXaCgj0CXK5e78i5Q0Eegy5XLXXkXKOgj 0OXK5a68CxT0Eehy5XJX3gUK+gh0uXK5K+8CBX0Euly53JV3gYI+Al2uXO7Ku0BBH4EuVy535V2g oI9AlyuXu/IuUNBHoMuVy115FyjoI9DlyuWuvAsU9BHocuVyV94VBm0JnbWrv+ldfhh6Oi9w3/9w b2eAgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr4EWl7fWfvUrM/y ko5nOOOg4VULKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKOjroOWV 7+XnW3F99cPxcu2jNzs40Vl7/gMoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgo KCgoKCgo6E9ByzrQau2JF+j8OL3zmAdbdd4MFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU FBQUFBQUFBQUFBQUFPTl0I/2w9JudzDrNrpq2PxVwxOgoKCgh9uBzl81PAEKCgp6uB3o/FXDE6Cg oKCH24HOXzU8AQoKCnq4Hej8VcMToKCgoIfbgc5fNTwBCgoKergd6PxVwxOgoKCgh9uBzl81PAEK Cgp6uB3o/FXDE6AnoWvDH4531j740Pmp+fAxZ14ZFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU FBQUFBQUFBQUFBQUFBQUFPRPQtdu+9CZJco3q/5Cd1nnRKeOBxQUFBQUFBQUFBQUFBQUFBQUFBQU FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT05dB7sfbv2hforH3w4/Sq4WMePM3MDFBQUFBQUFBQUFBQ UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFDQl0PXzv3UvLPEvKfts9xqHGgVKChoPR0U tAl0M+qMExQUdDMdFLQJdDPqjBMUFHQzHRS0CXQz6owTFBR0Mx0UtAl0M+qMExQUdDMdFLQJdDPq jBMUFHQzHRS0CXQz6owTFBR0Mx0UtOnb0OESJbSzXQntdPD78M7az14FCgoKCgoKCgoKCgoKCgoK CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvpj0HZW9cPxsveD4+0LDH+c/tZC16rHBF3GO5xg goJuh4CCNoF2ZnR3OMEEBd0OAQVtAu3M6O5wggkKuh0CCtoE2pnR3eEEExR0OwQUtAm0M6O7wwkm KOh2CChoE2hnRneHE0xQ0O0QUNAm0M6M7g4nmKCg2yGgoE2gnRndHU4wQUG3Q0BBm0A7M7o7nGB2 l7gVs4ZLdH6cXj1Nu13nV+v1vqMZoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg oKCgoKCgoKAvhLZXdj501j51omopHnP4c/bOiepphg5QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ UFBQUFBQUFBQUFBQUFBQUFBQ0D8Pne9g7c527YfOVc/O2Bycs+wGCgoKCgr6dXDOshsoKCgoKOjX wTnLbqCgoKCgoF8H5yy7gYKCgoKCfh2cs+wGCgoKCgr6dXDOshsoKCgoKOjXwTnLbqCgoKCgoF8H D9Y+1dGsgxPDZjygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoC+H jk/uL/GrXPhgxtr658HP/Qa9c2J/T9A7aB0o6Lm1QUH39wS9g9aBgp5bGxR0f0/QO2gdKOi5tUFB 9/cEvYPWgYKeWxsUdH9P0DtoHSjoubVBQff3BL2D1oGCnlsbFHR/T9A7aB0o6Lm1QUH39zwLrdZu P3R+OP6xf9V7+fk2gg7rvAAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgo KCgo6F8FLatOzH9o36zzi/LhVaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg oKCgoKCgfxX03m53K053fpxeVZ4YQqsZ5VagoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg oKCgoKCgoKCgoKCgoC+EDutAh56lOFF5Djo4AbrhjL+ANkuAgoIOZ4CCbjjjL6DNEqCgoMMZoKAb zvgLaLMEKCjocAYo6IYz/gLaLAEKCjqcAQq64Yy/gDZLgIKCDmeAgm444y+gzRKgoKDDGaCgG874 C2izBCgo6HAG6EXQU3V+at55geHa69NUvygfzij/6eA36KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg oKCgoKCgoKCgoKCgoKCgoKCgoKCgPwYNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA 0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJN CzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt 0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA0wJNCzQt0LRA 0wJNCzQt0LRA0wJNCzQt0LRA0/pnoP8BFtOVyTSlkjQAAAAASUVORK5CYII= "
+               id="image9591"
+               x="875.4342"
+               y="1569.0046"
+               transform="matrix(0.99996275,0.00863079,-0.00863079,0.99996275,0,0)" />
+            <flowRoot
+               transform="translate(-16.756149,153.65406)"
+               style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               id="flowRoot9019"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion9021"><rect
+                   y="1592.0428"
+                   x="263.1579"
+                   height="784.21057"
+                   width="836.8421"
+                   id="rect9023" /></flowRegion><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle"
+                 id="flowPara9027">Use it and/or</flowPara><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle"
+                 id="flowPara9427">contribute at</flowPara><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;text-anchor:middle"
+                 id="flowPara9423">github.com/duecredit</flowPara></flowRoot>          </g>
+        </g>
+      </g>
     </g>
     <g
        id="g14363"
@@ -21422,8 +21700,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Title"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        transform="matrix(0.90627384,0,0,0.90627384,-679.92771,-2153.5465)"
        id="g12622">
