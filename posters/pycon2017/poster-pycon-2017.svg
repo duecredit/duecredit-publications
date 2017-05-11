@@ -18,7 +18,7 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:docname="poster-pycon-2017.svg"
    version="1.0"
-   inkscape:version="0.92.1 r"
+   inkscape:version="0.91 r13725"
    sodipodi:version="0.32"
    id="svg2"
    height="66.929131in"
@@ -30,11 +30,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16"
-     inkscape:cx="2173.1953"
-     inkscape:cy="1125.3843"
+     inkscape:zoom="0.32"
+     inkscape:cx="2372.7587"
+     inkscape:cy="3212.9672"
      inkscape:document-units="cm"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="g9731"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -71,6 +71,12 @@
        originy="0"
        spacingx="1"
        spacingy="1" />
+    <sodipodi:guide
+       position="1082.8125,2964.0625"
+       orientation="0.095845753,0.9953962"
+       id="guide8916"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -14714,7 +14720,7 @@
          width="3417.8994"
          height="2456.7878"
          x="68.758163"
-         y="-118.89965" />
+         y="-117.33715" />
       <rect
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
          id="rect14049"
@@ -21814,7 +21820,7 @@
           </g>
         </g>
         <flowRoot
-           transform="matrix(0.84696316,-0.05366755,0.0613229,0.74123103,-945.2277,-1458.0604)"
+           transform="matrix(0.84790742,-0.03577433,0.04566021,0.74236048,-918.10668,-1472.2393)"
            style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.25879669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
            id="flowRoot9056-6-1-1-8"
            xml:space="preserve"><flowRegion
